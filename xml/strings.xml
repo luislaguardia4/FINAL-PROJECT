@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">laguardia_finals</string>
+    <string-array name="Relationship">
+        <item>Relationship</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Wife</item>
+        <item>Husband</item>
+        <item>Others</item>
+
+    </string-array>
+</resources>

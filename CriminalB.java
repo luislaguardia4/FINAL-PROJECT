@@ -163,44 +163,4 @@ public class CriminalB extends AppCompatActivity {
         });
     }
 
-    private void submitForm() {
-
-        boolean offense1 = yes1.isChecked();
-        boolean offense2 = yes2.isChecked();
-        boolean offense3 = yes3.isChecked();
-        boolean offensea = yesa.isChecked();
-        boolean offenseb = yesb.isChecked();
-        boolean offensec = yesc.isChecked();
-
-        String detail1 = txt1.getText().toString().trim();
-        String detail2 = txt2.getText().toString().trim();
-        String detail3 = txt3.getText().toString().trim();
-        String detaila = txta.getText().toString().trim();
-        String detailb = txtb.getText().toString().trim();
-        String detailc = txtc.getText().toString().trim();
-
-        String formData = "1. Have you ever been found guilty of any administrative offense?\n" +
-                "Yes: " + offense1 + "\n" +
-                "Details: " + detail1 + "\n\n" +
-                "2. Have you been criminally charged before any court?\n" +
-                "Yes: " + offense2 + "\n" +
-                "Details: " + detail2 + "\n\n" +
-                "3. Have you ever been convicted of any crime or violation of any law, decree, ordinance or regulation by any court or tribunal?\n" +
-                "Yes: " + offense3 + "\n" +
-                "Details: " + detail3 + "\n\n" +
-                "4. Pursuant to:\n" +
-                "(a) Indigenous People's Act (RA 8371):\n" +
-                "Member of indigenous group: " + offensea + "\n" +
-                "Details: " + detaila + "\n" +
-                "(b) Magna Carta for Disabled Persons (RA 7277):\n" +
-                "Person with disability: " + offenseb + "\n" +
-                "Details: " + detailb + "\n" +
-                "(c) Solo Parents Welfare Act of 2000 (RA 8972):\n" +
-                "Solo parent: " + offensec + "\n" +
-                "Details: " + detailc;
-
-
-
-        Toast.makeText(this, formData, Toast.LENGTH_LONG).show();
-    }
 }
